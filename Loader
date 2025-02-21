@@ -1,0 +1,26 @@
+print("██╗███╗   ██╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗     ██╗████████╗██╗   ██╗██╗    ██╗████████╗███████╗")
+print("██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║     ██║╚══██╔══╝╚██╗ ██╔╝██║    ██║╚══██╔══╝██╔════╝")
+print("██║██╔██╗ ██║   ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║     ██║   ██║    ╚████╔╝ ██║ █╗ ██║   ██║   █████╗  ")
+print("██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║     ██║   ██║     ╚██╔╝  ██║███╗██║   ██║   ██╔══╝  ")
+print("██║██║ ╚████║   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗██║   ██║      ██║██╗╚███╔███╔╝   ██║   ██║     ")
+print("╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝      ╚═╝╚═╝ ╚══╝╚══╝    ╚═╝   ╚═╝     ")
+
+
+
+local executor = identifyexecutor() or identifyexecutor
+
+if executor == "Solara" then
+print("Solara Edition")
+elseif executor == "wave" then
+print("Normal")
+elseif executor == "AWP" then
+print("Normal")
+elseif executor == "Synz" then
+print("Normal")
+elseif executor == "Xeno" then
+print("Xeno Edition")
+elseif executor == "Velocity" then
+print("Velocity Edition")
+else
+print("Unknown")
+end
