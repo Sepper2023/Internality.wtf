@@ -8,19 +8,11 @@ print("╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════�
 
 
 local executor = identifyexecutor() or identifyexecutor
+local place = game.PlaceID
 
-if executor == "Solara" then
-print("Solara Edition")
-elseif executor == "wave" then
-print("Normal")
-elseif executor == "AWP" then
-print("Normal")
-elseif executor == "Synz" then
-print("Normal")
-elseif executor == "Xeno" then
-print("Xeno Edition")
-elseif executor == "Velocity" then
-print("Velocity Edition")
+
+if place == 76455837887178 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sepper2023/DigItScript/refs/heads/main/Main.lua"))()
 else
-print("Unknown")
+print("Game Not Supported")
 end
